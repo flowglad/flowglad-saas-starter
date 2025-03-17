@@ -3,7 +3,6 @@ import { getTeamForUser, getUser } from '@/lib/db/queries'
 
 export const flowgladServer = new FlowgladServer({
   apiKey: process.env.FLOWGLAD_SECRET_KEY,
-  baseURL: 'https://app.flowglad.com',
   getRequestingCustomerProfile: async () => {
     const user = await getUser()
     if (!user) {

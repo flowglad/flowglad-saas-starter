@@ -101,14 +101,14 @@ export function Settings({
           )}
         </CardContent>
       </Card>
-      <CardContent>
-        <Link href="/dashboard/billing">
+      <InviteTeamMember />
+      <div className="mt-8">
+        <Link href="/billing" className="cursor-pointer">
           <Button type="submit" variant="outline">
             Manage Billing
           </Button>
         </Link>
-      </CardContent>
-      <InviteTeamMember />
+      </div>
     </section>
   )
 }
