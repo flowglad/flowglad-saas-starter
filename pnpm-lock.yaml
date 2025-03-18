@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@flowglad/nextjs':
-        specifier: ^0.6.0
-        version: 0.6.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(next@15.2.2-canary.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.12)
+        specifier: 0.7.0
+        version: 0.7.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(next@15.2.2-canary.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.12)
       '@radix-ui/react-avatar':
         specifier: ^1.1.3
         version: 1.1.3(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
@@ -419,25 +419,25 @@ packages:
   '@floating-ui/utils@0.2.9':
     resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==}
 
-  '@flowglad/nextjs@0.6.0':
-    resolution: {integrity: sha512-ZMa3UwXNn6N7U/50EBO5LQ3LJOo12kh4NPgpa1jRbzgjPg/KjsBk6pZ5G64ThfvXOjXSa6XXbKpLAJ2iqxcxfA==}
+  '@flowglad/nextjs@0.7.0':
+    resolution: {integrity: sha512-TEOfAFcUQABSk0tj4Dn5XMICHNReE6H80vPXD3ppCjWIpahmd1NAD8o8hQHpOoBVMPpKviGCqga3GXTJhn0l1w==}
     peerDependencies:
       next: ^14.0.3 || ^15.0.0
       react: ^19.0.0
 
-  '@flowglad/node@0.7.0':
-    resolution: {integrity: sha512-ViribiY99xlRopiDiYIc3/JASM6FR2lZiaLqrpzCSJcufDGIereJCsgGF3mdg+mLr96VEIi9PAFQlwuM+/nOUw==}
+  '@flowglad/node@0.8.0':
+    resolution: {integrity: sha512-+lN7n/6hQ/q5CILrHOzBtUsl4V/MkRzZsFJDxlPmiwX7TOMirMAqN1LwtliGijlRTmnd+ZKx4qcsROATteyamw==}
 
-  '@flowglad/react@0.6.0':
-    resolution: {integrity: sha512-mv0IuuwCPeqvoWHkn5RqUhm4jQFQfH2jVG68KBxdFLAF8/jY+uHzuWBu8oMzUam1WTQy8TzMiGN9JKoNT1kYdg==}
+  '@flowglad/react@0.7.0':
+    resolution: {integrity: sha512-meKKGE2KPTPo8rEI0XVwog7T+LouEC1FeCH00QgWICdNwPWSuFY394yBS34//FE4I+NYKZQ7rLHz8hVFQqR4Dw==}
     peerDependencies:
       react: 19.0.0
 
-  '@flowglad/server@0.6.0':
-    resolution: {integrity: sha512-5GYiXWvXG2pRysnU1UY3BxukQyPgVqI+/QccDJbLrlfXTLtBR+We3nqgck2b5/QkOcJ+nHlVxrGtJsdPaT+hsw==}
+  '@flowglad/server@0.7.0':
+    resolution: {integrity: sha512-/0nWNKzvfDyhZfAXnovulp5UxEzTia6EHbCmjDaclwvxhN6uukBQG4mupVjUXE20Bt1CiTR7la+J7tcnRA8cyw==}
 
-  '@flowglad/shared@0.6.0':
-    resolution: {integrity: sha512-2tg8tZoDJbFs5i9pgF1vwIkI68TfcOght0R7fsWY26THSjKwL5Lp3kOByfXiUytkPMfZ6a/Fl5/XUCkCR2Baqg==}
+  '@flowglad/shared@0.7.0':
+    resolution: {integrity: sha512-ykHvEd4yIh2ml5/OpnOwzjoGD6NfbACxSsxvdstf6NVv9wfgF0IbgtDksAizjMW7QLelkrNvv3Q1P/eZuQ3lyA==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -1758,12 +1758,12 @@ snapshots:
 
   '@floating-ui/utils@0.2.9': {}
 
-  '@flowglad/nextjs@0.6.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(next@15.2.2-canary.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.12)':
+  '@flowglad/nextjs@0.7.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(next@15.2.2-canary.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.12)':
     dependencies:
-      '@flowglad/node': 0.7.0
-      '@flowglad/react': 0.6.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.12)
-      '@flowglad/server': 0.6.0
-      '@flowglad/shared': 0.6.0
+      '@flowglad/node': 0.8.0
+      '@flowglad/react': 0.7.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.12)
+      '@flowglad/server': 0.7.0
+      '@flowglad/shared': 0.7.0
       next: 15.2.2-canary.3(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       react: 19.0.0
       zod: 3.23.8
@@ -1773,12 +1773,12 @@ snapshots:
       - react-dom
       - tailwindcss
 
-  '@flowglad/node@0.7.0': {}
+  '@flowglad/node@0.8.0': {}
 
-  '@flowglad/react@0.6.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.12)':
+  '@flowglad/react@0.7.0(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)(tailwindcss@4.0.12)':
     dependencies:
-      '@flowglad/node': 0.7.0
-      '@flowglad/shared': 0.6.0
+      '@flowglad/node': 0.8.0
+      '@flowglad/shared': 0.7.0
       '@radix-ui/react-slot': 1.1.2(@types/react@19.0.10)(react@19.0.0)
       '@radix-ui/react-tooltip': 1.1.8(@types/react-dom@19.0.4(@types/react@19.0.10))(@types/react@19.0.10)(react-dom@19.0.0(react@19.0.0))(react@19.0.0)
       '@tanstack/react-query': 5.66.0(react@19.0.0)
@@ -1796,13 +1796,13 @@ snapshots:
       - react-dom
       - tailwindcss
 
-  '@flowglad/server@0.6.0':
+  '@flowglad/server@0.7.0':
     dependencies:
-      '@flowglad/node': 0.7.0
-      '@flowglad/shared': 0.6.0
+      '@flowglad/node': 0.8.0
+      '@flowglad/shared': 0.7.0
       zod: 3.23.8
 
-  '@flowglad/shared@0.6.0':
+  '@flowglad/shared@0.7.0':
     dependencies:
       zod: 3.23.8
 
