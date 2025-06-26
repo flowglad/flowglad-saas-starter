@@ -256,57 +256,11 @@
           "primaryKey": false,
           "notNull": true,
           "default": "now()"
-        },
-        "stripe_customer_id": {
-          "name": "stripe_customer_id",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "stripe_subscription_id": {
-          "name": "stripe_subscription_id",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "stripe_product_id": {
-          "name": "stripe_product_id",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "plan_name": {
-          "name": "plan_name",
-          "type": "varchar(50)",
-          "primaryKey": false,
-          "notNull": false
-        },
-        "subscription_status": {
-          "name": "subscription_status",
-          "type": "varchar(20)",
-          "primaryKey": false,
-          "notNull": false
         }
       },
       "indexes": {},
       "foreignKeys": {},
       "compositePrimaryKeys": {},
-      "uniqueConstraints": {
-        "teams_stripe_customer_id_unique": {
-          "name": "teams_stripe_customer_id_unique",
-          "nullsNotDistinct": false,
-          "columns": [
-            "stripe_customer_id"
-          ]
-        },
-        "teams_stripe_subscription_id_unique": {
-          "name": "teams_stripe_subscription_id_unique",
-          "nullsNotDistinct": false,
-          "columns": [
-            "stripe_subscription_id"
-          ]
-        }
-      }
     },
     "public.users": {
       "name": "users",
